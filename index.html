@@ -6,7 +6,6 @@
   <title>Photography Portfolio</title>
 
   <style>
-    /* Reset */
     * {
       margin: 0;
       padding: 0;
@@ -14,7 +13,6 @@
       font-family: Arial, sans-serif;
     }
 
-    /* Background image */
     body {
       height: 100vh;
       background: url("background.jpg") no-repeat center center/cover;
@@ -24,14 +22,12 @@
       padding-bottom: 80px;
     }
 
-    /* Container for cards */
     .container {
       display: grid;
-      grid-template-columns: repeat(4, 200px);
+      grid-template-columns: repeat(3, 200px);
       gap: 30px;
     }
 
-    /* Glassmorphism card */
     .card {
       height: 150px;
       border-radius: 20px;
@@ -48,18 +44,15 @@
       transition: 0.3s;
     }
 
-    /* Hover effect */
     .card:hover {
       transform: scale(1.05);
       background: rgba(255, 255, 255, 0.3);
     }
 
-    /* Emoji icon */
     .icon {
       font-size: 30px;
       margin-bottom: 10px;
     }
-
   </style>
 </head>
 
@@ -67,11 +60,9 @@
 
   <div class="container">
 
-    <a href="#" class="card">
+    <a href="style1.html" class="card">
       <div class="icon">🎨</div>
       Style
-      <ul>
-          <li><a href="style1.html">Style 1</a></li>
     </a>
 
     <a href="#" class="card">
